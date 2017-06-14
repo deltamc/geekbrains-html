@@ -1,0 +1,197 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: url(images/concrete_seamless.png);
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* head */
+#head {
+    background: #000000 url(images/headbg.jpg) no-repeat right;
+
+}
+
+#head .logo{
+    color:#FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    line-height: 88px;
+    text-indent: 40px;
+
+}
+
+#head .logo .highlight{
+    color:#C4D600;
+}
+
+#head .logo .highlight.domen{
+    font-size: 30px;
+}
+
+/* меню */
+#menu{
+
+    list-style: none;
+    border:none;
+    background-color: #2b2b2b;
+    height:40px;
+    border-top: 1px solid #565656;
+    border-bottom: 1px solid #565656;
+    margin:0;
+
+}
+
+#menu li{
+    display:block;
+    float:left;
+    border-bottom: 0;
+    border-right: 1px solid #565656;
+    text-align: center;
+    width:200px;
+}
+#menu li:first-child{
+    border-left: 1px solid #565656;
+}
+
+#menu a{
+    color:#bcbdc0;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    line-height: 40px;
+    display:block;
+
+}
+
+#menu a:hover{
+    background-color:#565656;
+}
+
+#menu .active a{
+    color:#C4D600;
+}
+
+
+/*Основной блок*/
+
+#main{
+   padding: 0 40px;
+}
+
+/* Карточка товара */
+.desc-min{
+    color:#707070;
+    font-size:14px;
+    font-style:italic;
+    line-height: 16px;
+}
+
+.desc-full{
+    color:#484343;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.properties{
+    font-size: 16px;
+    list-style-image: url(images/camera_test_9912.png);
+    font-variant: small-caps;
+}
+
+img.product{
+    border:4px solid #C2C0C0;
+}
+
+img.product:hover{
+    border:4px solid transparent;
+}
+
+h2.product{
+    color:#000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    font-family: 'PT Sans', sans-serif;
+}
+
+table.size {
+    border-collapse: collapse;
+    border:1px solid #C2C0C0;
+    margin:5px;
+}
+
+table.size td, table.size th{
+    border:1px solid #C2C0C0;
+    padding:5px;
+    text-align: center;
+    width:200px;
+
+}
+
+table.size th {
+    background-color:  #565656;
+    color:#C4D600;
+    font-weight: normal;
+
+}
+
+table.size tr:nth-child(2n){
+    background-color: #bcbdc0;
+
+}
+
+table.size tr:hover{
+    background-color:  #565656;
+    color:#C4D600;
+}
+
+
+
+
+/*форма обратной связи*/
+fieldset{
+    width:500px;
+}
+
+input, textarea{
+    width:500px;
+
+    text-transform: capitalize;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+    color:#2b2b2b;
+
+}
+
+input{
+    height:30px;
+
+}
+
+input[type=submit]{
+    width:200px;
+    background-color: #2b2b2b;
+    color:#C4D600;
+}
+
+#i-email:focus{
+    background-color: #565656;
+    color:#C4D600;
+}
+
+/* footer */
+#footer{
+
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-indent: 40px;
+    border-top:1px solid black;
+}
