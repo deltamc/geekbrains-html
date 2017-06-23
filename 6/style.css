@@ -37,9 +37,8 @@
 /************* header *********************/
 
 .wrap.header{
-    background-color: #abeafa;
-    background-image: url(images/bg.jpg) ;
-    background-position: center;
+    background: #abeafa url(images/bg.jpg) center;
+
 }
 
 #header{
@@ -303,6 +302,13 @@
     margin-left:20px;
     margin-top:5px;
 
+}
+
+.product .img img{
+    width:100%;
+    height:auto;
+    max-width:255px;
+    max-height: 255px;
 }
 
 .product .sticker.hot{
